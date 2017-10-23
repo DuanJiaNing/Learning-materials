@@ -1,0 +1,84 @@
+import java.util.*;
+
+public class main 
+{    
+	public static void main(String[] args) 
+		{
+			sortDemo();
+
+		}
+
+		private static void sortDemo()
+		{
+			List<worker> list = new ArrayList<worker>();
+			list.add( new worker("hjk",worker.SEX_FEMALE,2));
+			list.add( new worker("afdaf",worker.SEX_MALE,28));
+			list.add( new worker("q",worker.SEX_FEMALE,2));
+			list.add( new worker("sdsadf",worker.SEX_FEMALE,233));
+			list.add( new worker("fsd",worker.SEX_MALE,2));
+			list.add( new worker("fasdfadff",worker.SEX_MALE,2));
+			list.add( new worker("r",worker.SEX_MALE,265));
+			list.add( new worker("q",worker.SEX_FEMALE,52));
+
+			sop(list);
+			Collections.sort(list);
+			sop(list);
+		}
+
+	private static void sop(List<worker> list)
+	{
+		Iterator<worker> it = list.iterator();
+		while ( it.hasNext() )
+		{
+			worker obj = it.next();
+			System.out.println("age: "+obj.age+"  name: "+obj.name+"  sex: "+obj.sex);
+		}
+	}
+}
+
+class worker implements Comparable<worker>
+{
+	public static final String SEX_MALE = "male";
+	public static final String SEX_FEMALE = "female";
+	public String name;
+	public String sex;
+	public Integer age;
+
+	public worker(String name,String sex,Integer age)
+	{
+		this.name = name;
+		this.sex = sex;
+		this.age = age;
+	}
+
+	public int compareTo(worker w)
+	{
+	
+		int ag = this.age.compareTo( w.age );
+		if (ag != 0) //年龄不相等，则按年龄升序排序
+		{
+			System.out.println("年龄不相等 从小到大");
+			return ag;
+		}
+		else  //年龄相等
+		{
+			System.out.println("年龄相等 ");
+			int na = this.name.length() - w.name.length();
+			if (na != 0)  //按姓名长度排序，从长到短
+			{
+				System.out.println("按姓名长度排序  长到短");
+				return -na;
+			}
+			else //na==0 姓名长度也相等，则按性别排
+			{
+				System.out.println("姓名长度也相等，则按性别排 女上男下 ");
+				if (this.sex.equals(worker.SEX_FEMALE))
+					return -1;
+				else
+					return 1;
+			}
+		}
+	}
+
+
+}
