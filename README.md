@@ -4,7 +4,7 @@
 * java记录
 * Android记录
 
-##### java 笔记
+##### [java 笔记](https://github.com/DuanJiaNing/Learning-materials/wiki/java-directory)
 * java 笔记
 * java 注解
 * java 解析 XML
