@@ -20,14 +20,14 @@
  - Controller 规范
 
 --------------------------2017/10/24
-- 线程 yield sleep join interrupt start
++ 线程 yield sleep join interrupt start
 - 四种引用类型
 
 --------------------------2017/10/25
 + 完成 spring MVC笔记（javaEE笔记）
-- 完成类加载机制笔记（java记录）
++ 完成类加载机制笔记（java记录）
 + spring IOC容器
 
 --------------------------2017/10/27
-+ java new创建的字符串会被加入常量池吗
-- 守护线程
++ java new创建的字符串会被加入常量池吗 会
++ 守护线程
