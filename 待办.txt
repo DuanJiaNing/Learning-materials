@@ -16,8 +16,8 @@
 --------------------------2017/10/23
 - 编程习惯系列文章阅读 https://github.com/xwjie/PLMCodeTemplate
  + 异常处理
- - 接口定义
- - Controller 规范
+ + 接口定义
+ + Controller 规范
 
 --------------------------2017/10/24
 + 线程 yield sleep join interrupt start
@@ -53,3 +53,7 @@
 + 了解Shiro
 - SSM注解开发的高级知识讲解 http://codingxiaxw.cn/2016/11/19/46-ssm%E9%AB%98%E7%BA%A7%E5%BC%80%E5%8F%91/
 - Shiro整合Web项目及整合后的开发 http://codingxiaxw.cn/2016/11/23/50-Shiro-Integration/
+
+
+--------------------------2017/11/16
+- socket/tcp/udp
