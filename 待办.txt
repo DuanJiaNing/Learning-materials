@@ -49,7 +49,6 @@
 --------------------------2017/11/15
 + 了解Shiro
 - SSM注解开发的高级知识讲解 http://codingxiaxw.cn/2016/11/19/46-ssm%E9%AB%98%E7%BA%A7%E5%BC%80%E5%8F%91/
-- Shiro整合Web项目及整合后的开发 http://codingxiaxw.cn/2016/11/23/50-Shiro-Integration/
 
 --------------------------2017/11/16
 - socket/tcp/udp
@@ -60,7 +59,16 @@
 - 数据库索引
 
 --------------------------2017/11/22
-- 计算机网络 7/4/5层 http://blog.csdn.net/chenchaofuck1/article/details/51980794
+- 计算机网络，协议 7/4/5层 http://blog.csdn.net/chenchaofuck1/article/details/51980794
 
 --------------------------2017/11/23
 - 线程池-queue
+- java 几种锁
+- 连接池
+- 数据库优化
+- spring ioc原理
+- spring涉及到的设计模式
++ SpringMVC原理
+- 跨域
+- 事务
+- 线程三种方式 Thread，Runnable，Callable
