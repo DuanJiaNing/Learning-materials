@@ -61,12 +61,11 @@
 - 计算机网络，协议 7/4/5层 http://blog.csdn.net/chenchaofuck1/article/details/51980794
 
 --------------------------2017/11/23
-- 线程池-queue
++ 线程池-queue
 - java 几种锁
 - 连接池
 - 数据库优化
 - spring ioc原理
-- spring涉及到的设计模式
 + SpringMVC原理
 - 跨域
 - 事务
