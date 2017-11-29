@@ -47,7 +47,6 @@
 
 --------------------------2017/11/15
 + 了解Shiro
-- SSM注解开发的高级知识讲解 http://codingxiaxw.cn/2016/11/19/46-ssm%E9%AB%98%E7%BA%A7%E5%BC%80%E5%8F%91/
 
 --------------------------2017/11/16
 - socket/tcp/udp
@@ -65,8 +64,19 @@
 - java 几种锁
 - 连接池
 - 数据库优化
-- spring ioc原理
-+ SpringMVC原理
 - 跨域
-- 事务
-- 线程三种方式 Thread，Runnable，Callable
+- 事务,事务的几大特性
++ 线程三种实现方式 Thread，Runnable，Callable
+
+---------------------------2017/11/29
+- compareable
+- spring
+  - spring ioc原理
+  + springMVC原理
+  - spring中用到的设计模式
+  - spring aop在项目中怎么践行
+  - spring如何管理事务
+- apache是什么，有哪些技术
+- SQL笛卡尔乘积
+- 操作系统-线程调度
+- 操作系统-死锁发生的必备条件
