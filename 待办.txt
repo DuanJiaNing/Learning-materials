@@ -70,7 +70,7 @@ yccz培训时间：
 - java 几种锁
 - 连接池
 - 数据库优化
-- 跨域
++ 跨域
 - 事务,事务的几大特性
 + 线程三种实现方式 Thread，Runnable，Callable
 
