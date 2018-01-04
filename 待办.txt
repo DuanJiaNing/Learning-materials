@@ -121,7 +121,7 @@ yccz培训时间：
 
 --------------------------2017/12/26
 List
-- ArrayList
++ ArrayList
 - LinkedList
 - Vector、Stack
 - CopyOnWriteArrayList
