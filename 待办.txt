@@ -5,11 +5,8 @@ yccz培训时间：
 今天：2017-12-29
 正真学习了 74 天
 
-今天：2018-01-03（图书馆）
-学习了：1天
-
-
-
+今天：2018-01-08（图书馆）
+学习了：4天
 
 
 上午：
@@ -122,7 +119,7 @@ yccz培训时间：
 --------------------------2017/12/26
 List
 + ArrayList
-- LinkedList
++ LinkedList
 - Vector、Stack
 - CopyOnWriteArrayList
 
