@@ -125,12 +125,12 @@ List
 
 Map
 + HashMap
-- LinkedHashMap
++ LinkedHashMap
 - TreeMap
 - HashTable
 
 Set
-- HashSet
++ HashSet
 - TreeSet
 
 - ConcurrentMap
