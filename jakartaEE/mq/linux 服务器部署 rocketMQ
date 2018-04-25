@@ -1,0 +1,39 @@
+阿里云服务器部署 rocketMQ
+
+阿里云服务器连接密码：123456 <- 522768
+登录密码：123456
+mysql：123456
+IP:120.79.128.250
+
+见：http://www.bubuko.com/infodetail-2056221.html
+rocketmq-console 使用说明：https://github.com/apache/rocketmq-externals/blob/master/rocketmq-console/doc/1_0_0/UserGuide_CN.md
+
+启动 Name Server：
+目录：/usr/local/rockemq-source/incubator-rocketmq/distribution/target/apache-rocketmq
+命令：nohup sh bin/mqnamesrv &
+查看日志：tail -f ~/logs/rocketmqlogs/namesrv.log
+问题：JVM内存分配
+http://www.mamicode.com/info-detail-1824477.html
+修改默认的JVM参数
+rocketmq -> runserver.sh
+JAVA_OPT="${JAVA_OPT} -server -Xms4g -Xmx4g -Xmn2g -XX:MetaspaceSize=128m -XX:MaxMetaspaceSize=320m"
+修改为：JAVA_OPT="${JAVA_OPT} -server -Xms128m -Xmx256m -Xmn256m -XX:MetaspaceSize=128m -XX:MaxMetaspaceSize=320m"
+停止：sh bin/mqshutdown namesrv
+
+启动 Broker：
+目录：/usr/local/rockemq-source/incubator-rocketmq/distribution/target/apache-rocketmq
+命令：nohup sh bin/mqbroker -n 120.79.128.250:9876 &
+nohup bin/mqbroker -c ./conf/broker-for-xingrui-test.conf &> /data/rocketmq/logs/mqbroker.log &
+查看日志： tail -f ~/logs/rocketmqlogs/broker.log
+问题：JVM内存分配
+修改默认的JVM参数
+rocketmq -> runserver.sh
+JAVA_OPT="${JAVA_OPT} -server -Xms4g -Xmx4g -Xmn2g -XX:MetaspaceSize=128m -XX:MaxMetaspaceSize=320m"
+修改为：JAVA_OPT="${JAVA_OPT} -server -Xms128m -Xmx256m -Xmn256m"
+停止：sh bin/mqshutdown broker 
+
+查看所有消费组group:
+sh bin/mqadmin cousumerProgress -n 120.79.128.250:9876
+
+HAServer: 172.18.240.117:10912 master用来监听slave复制数据的端口
+ ClientChannelInfo [channel=[id: 0x4eabf541, L:/172.18.240.117:10911 - R:/171.221.149.37:23363], clientId=192.168.7.15@1524117870088, language=JAVA, version=212, lastUpdateTimestamp=1524117870816]
