@@ -1,0 +1,37 @@
+
+我自己记的笔记
+https://github.com/DuanJiaNing/Learning-materials
+
+下面这几个文档记录得比较详细
+..\Learning-materials\jakartaEE\JavaEE笔记.docx
+..\Learning-materials\java\javaSE笔记.docx
+
+..\Learning-materials\jakartaEE\spring.docx
+..\Learning-materials\java\java记录.docx
+
+
+零碎的知识点
+..\Learning-materials\笔试\**
+..\Learning-materials\操作系统\**
+..\Learning-materials\计算机网络\**
+..\Learning-materials\设计模式\**  https://github.com/DuanJiaNing/DesignPattern
+..\Learning-materials\数据库\**
+..\Learning-materials\算法\**  https://github.com/DuanJiaNing/Algorithms
+
+书籍
+《深入分析 Java Web 技术内幕》
+《深入理解 Java 虚拟机》
+《剑指 offer》
+
+其他
+《大型网站技术架构 核心原理与案例分析》
+《spring 实战》
+《spring boot 实战》
+《Effective Java 中文版》
+《Java 并发编程实战》
+《码农翻身》
+
+https://github.com/kdn251/interviews/blob/master/README-zh-cn.md
+
+剑指Offer——名企面试官精讲典型编程题
+https://github.com/gatieme/CodingInterviews
