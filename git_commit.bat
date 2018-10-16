@@ -1,6 +1,6 @@
 @echo off
-c:
-cd C:\Users\shiti\Desktop\Learning-materials
+d:
+cd D:\GitRepositories\Learning-materials
 
 git status
 git add .
