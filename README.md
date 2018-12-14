@@ -1,13 +1,5 @@
 # Learning-materials
 学习过程中总结的笔记和一些资料
 
-##### 随笔
-##### [java](https://github.com/DuanJiaNing/Learning-materials/wiki/java-directory)
-##### Android
-##### javaEE
-##### MPI
-##### SQL
-##### IDE
-##### 笔试
-##### 其它文档
-##### 设计模式
+<hr>
+包含如下内容：jakartaEE、Java、Android、算法和数据结构、Linux、MPI、Python、操作系统、设计模式、数据库、计算机网络以及我的个人简历。
